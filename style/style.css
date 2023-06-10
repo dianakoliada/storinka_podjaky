@@ -1,0 +1,134 @@
+body {
+    background-color: rgba(251, 253, 255, 1);
+    font-family: 'Open Sans', sans-serif;
+}
+/* ----- img ----- */
+.img {
+    background: url(../img/success-img.png);
+    position: absolute;
+    width: 256px;
+    height: 324px;
+    left: 43%;
+    top: 60px;
+}
+@media (max-width: 1199.98px) {
+    .img {
+        left: 39%;
+        top: 50px;
+    }
+}
+@media (max-width: 991.98px) {
+    .img {
+        left: 38%;
+        top: 58px;
+    }
+}
+@media (max-width: 767.98px) {
+    .img {
+        left: 35%;
+        top: 438px;
+    }
+}
+/* ----- title ----- */
+.title {
+    display: block;
+    margin-top: 21.5%;
+    text-align: center;
+    color: rgba(107, 104, 236, 1);
+    font-weight: 800;
+    font-size: 95px;
+    line-height: 125px;
+}
+@media (max-width: 1199.98px) {
+    .title {
+        margin-top: 33%;
+    }
+}
+@media (max-width: 991.98px) {
+    .title {
+        margin-top: 39%;
+        font-size: 70px;
+        line-height: 100px;
+    }
+}
+@media (max-width: 767.98px) {
+    .title {
+        margin-top: 5%;
+    }
+}
+@media (max-width: 479.98) {
+    .title {
+        margin-top: 5%;
+    }
+}
+/* ----- wrapper__text ----- */
+.wrapper__text {
+    margin: 2.3% 0;
+}
+@media (max-width: 991.98px) {
+    .wrapper__text {
+        margin: 2.2% 5%;
+    }
+}
+@media (max-width: 767.98px) {
+    .wrapper__text {
+        margin: 2% 8%;
+    }
+}
+/* ----- text ----- */
+.text {
+    padding-bottom: .5%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    color: #484855;
+}
+@media (max-width: 479.98px) {
+    .text {
+        font-size: 20px;
+        line-height: 25px;
+    }
+}
+/* ----- wrapper__link ----- */
+.wrapper__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 1199.98px) {
+    .wrapper__link {
+        margin: 4% 0;
+    }
+}
+@media (max-width: 991.98px) {
+    .wrapper__link {
+        margin: 5% 0;
+    }
+}
+@media (max-width: 767.98px) {
+    .wrapper__link {
+        margin: 3% 0;
+    }
+}
+@media (max-width: 479.98px) {
+    .wrapper__link {
+        margin: 5% 0;
+    }
+}
+/* ----- link ----- */
+.link {
+    display: inline-block;
+    padding: 30px 0;
+    width: 363px;
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: #1C1C25;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+}
